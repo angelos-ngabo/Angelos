@@ -1,13 +1,13 @@
 ```sql
   
-# SIMPLE Database for managing University system
+#SIMPLE Database for managing University system
 
 Below is the management system of university
 
 ### Table
 
 
-[Uploading assCREATE TABLE Departments (
+CREATE TABLE Departments (
     department_id INT PRIMARY KEY,
     department_name VARCHAR(100) NOT NULL
 );
